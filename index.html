@@ -23,31 +23,42 @@
     <!-- HOBBIES -->
     <section class="content hobbies" id="hobbies">
         <h2 class="title">Hobbies</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nam fuga, esse at soluta, vitae cupiditate voluptatum perspiciatis veniam quod, mollitia hic velit nisi doloribus excepturi quam autem sunt recusandae?</p>
+        <p>La natación es una de mis actividades favoritas. La solía hacer mucho en el verano siempre que las condiciones lo permitían.</p>
+        <p>También leer, me gusta bastante. Leo en mis ratos libres.</p>
     </section>
 
     <!-- PELICULAS -->
     <section class="content pelis" id="pelis">
         <h2 class="title">Películas favoritas</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere delectus numquam.</p>
+        <p>Las películas que más me han gustado son todas las de Marvel y casi todas las de DC.</p>
+        <p>También he visto películas que no son de superhéroes pero que tocan otros temas e igual me han gustado, como:</p>
+        <ul class="lista">
+            <li>Todo, todo</li>
+            <li>Extraordinario</li>
+            <li>En el nombre del amor</li>
+        </ul>
     </section>
 
     <!-- CONTACTO -->
     <section class="content contact" id="contact">
         <h2 class="title">Contacto</h2>
         <div class="container">
-            <form action="/action_page.php">
-              <label for="fname">Nombre</label>
-              <input type="text" id="fname" name="firstname" placeholder="Tu nombre.."><br>
-          
-              <label for="lname">Apellido</label>
-              <input type="text" id="lname" name="lastname" placeholder="Tu apellido.."><br>
-          
-              <label for="subject">Mensaje</label>
-              <textarea id="subject" name="subject" placeholder="Escriba su texto.." style="height:200px"></textarea><br>
-          
-              <input type="submit" value="Enviar">
-            </form>
+            <form action="#" name="contact_form">
+                <label for="first_name">Nombre</label>
+                <input name="first_name" type="text" required placeholder="Juan"/>
+                <br>
+                <label for="last_name">Apellido</label>
+                <input name="last_name" type="text" required placeholder="Lopez"/>
+                <br>
+                <label for="email">Correo electrónico</label>
+                <input name="email" type="email" required placeholder="tu@dominio.com"/>
+                <br>
+                <label for="message">Mensaje</label><br>
+                <textarea name="message" cols="30" rows="10" placeholder="Ingrese aquí su mensaje ..." required></textarea>
+                <div class="center">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>	
         </div>
     </section>
 </body>
