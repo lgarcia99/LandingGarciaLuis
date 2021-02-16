@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portada</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header" id="head">
+        <h1>Mi Landing Page</h1>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <a href="#head">Portada</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#pelis">Películas favoritas</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <!-- HOBBIES -->
+    <section class="content hobbies" id="hobbies">
+        <h2 class="title">Hobbies</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nam fuga, esse at soluta, vitae cupiditate voluptatum perspiciatis veniam quod, mollitia hic velit nisi doloribus excepturi quam autem sunt recusandae?</p>
+    </section>
+
+    <!-- PELICULAS -->
+    <section class="content pelis" id="pelis">
+        <h2 class="title">Películas favoritas</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere delectus numquam.</p>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="content contact" id="contact">
+        <h2 class="title">Contacto</h2>
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">Nombre</label>
+              <input type="text" id="fname" name="firstname" placeholder="Tu nombre.."><br>
+          
+              <label for="lname">Apellido</label>
+              <input type="text" id="lname" name="lastname" placeholder="Tu apellido.."><br>
+          
+              <label for="subject">Mensaje</label>
+              <textarea id="subject" name="subject" placeholder="Escriba su texto.." style="height:200px"></textarea><br>
+          
+              <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+</body>
+</html>

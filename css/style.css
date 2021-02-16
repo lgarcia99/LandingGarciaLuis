@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    font: 300 20px sans-serif;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header {
+    padding: 100px;
+    text-align: center;
+    background: url('../img/paisaje.webp');
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #b8860b;
+    text-shadow: 1px 1px #000000b2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-stretch: semi-condensed;
+    font-weight: bold;
+}
+
+.content {
+    padding: 80px 0;
+}
+
+.hobbies {
+    background: linear-gradient(
+        rgba(255, 136, 0, 0.45), 
+        rgba(255, 136, 0, 0.45)
+      ),url('../img/swim.jpg');
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px rgba(112, 60, 0, 0.301);
+}
+
+.pelis {
+    background: rgba(0, 0, 0, 0.836);
+    background-size: cover;
+    color: white;
+}
+
+.contact {
+    background: linear-gradient(
+        rgba(255, 136, 0, 0.45), 
+        rgba(255, 136, 0, 0.45)
+      ),url('../img/Person-working-with-computer-Stock-Photo-03.jpg');
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px rgba(112, 60, 0, 0.301);
+}
+
+.container {
+    padding: 20px;
+    box-sizing: border-box
+  }
+
+.container input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.container input[type=submit]:hover {
+    background-color: #45a049;
+  }
